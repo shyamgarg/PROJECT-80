@@ -24,13 +24,15 @@ function show()
 
 
 function sorting()
-	{
-		names_of_people_array.sort();
+	{     
+		names_of_people.sort();
+		
 		var i= names_of_people.join("<br>");
 		console.log(names_of_people);		
 		document.getElementById("sorted").innerHTML=i.toString();
+	
 		}
-
+		
 
 function searching()
 {
